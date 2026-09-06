@@ -17,6 +17,18 @@ The project divides an **8-bit unsigned dividend** by a **3-bit unsigned divisor
 - 12-bit shift-register datapath at the top level
 - Complete implementation preserved in a single Logisim Evolution project file
 
+## Circuit previews
+
+The previews below were generated directly from the component coordinates and wiring stored in `assignment.circ`. They are faithful schematic extracts of the project structure, but are **not native Logisim GUI screenshots**.
+
+### Top-level divider
+
+![Top-level divider schematic](./images/main-schematic.svg)
+
+### 4-bit add/subtract unit
+
+![AD_4BIT schematic](./images/ad_4bit-schematic.svg)
+
 ## Architecture
 
 The active `main` design combines the input operands, arithmetic unit, quotient/remainder update logic, iteration counter and shift-register datapath.
@@ -88,10 +100,13 @@ This project gave me hands-on experience with:
 
 ```text
 logisim-8bit-divider/
-├── assignment.circ   # Complete Logisim Evolution project
-├── CIRCUITS.md       # Circuit inventory and structure notes
-├── README.md         # Project documentation
-└── .gitattributes    # GitHub syntax highlighting for .circ files
+├── assignment.circ          # Complete Logisim Evolution project
+├── CIRCUITS.md              # Circuit inventory and structure notes
+├── README.md                # Project documentation
+├── .gitattributes           # GitHub syntax highlighting for .circ files
+└── images/
+    ├── main-schematic.svg   # Generated top-level schematic preview
+    └── ad_4bit-schematic.svg
 ```
 
 ## Course
