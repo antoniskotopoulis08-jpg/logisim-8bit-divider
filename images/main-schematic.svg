@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="825" viewBox="0 0 1400 825">
+<rect width="100%" height="100%" fill="white"/>
+<text x="55" y="36" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111">main — Top-level divider datapath</text>
+<g stroke="#555" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<line x1="860.1" y1="352.0" x2="860.1" y2="370.3"/>
+<line x1="860.1" y1="352.0" x2="887.6" y2="352.0"/>
+<line x1="915.0" y1="342.9" x2="1098.0" y2="342.9"/>
+<line x1="1006.5" y1="141.6" x2="1024.8" y2="141.6"/>
+<line x1="1006.5" y1="159.9" x2="1024.8" y2="159.9"/>
+<line x1="1024.8" y1="105.0" x2="1024.8" y2="141.6"/>
+<line x1="1024.8" y1="141.6" x2="1033.9" y2="141.6"/>
+<line x1="1024.8" y1="159.9" x2="1024.8" y2="233.1"/>
+<line x1="1024.8" y1="159.9" x2="1043.1" y2="159.9"/>
+<line x1="1098.0" y1="342.9" x2="1098.0" y2="370.3"/>
+<line x1="1098.0" y1="370.3" x2="1171.2" y2="370.3"/>
+<line x1="55.0" y1="681.4" x2="91.6" y2="681.4"/>
+<line x1="1143.7" y1="242.2" x2="1143.7" y2="333.7"/>
+<line x1="1143.7" y1="333.7" x2="1171.2" y2="333.7"/>
+<line x1="1152.9" y1="580.7" x2="1152.9" y2="626.5"/>
+<line x1="1162.0" y1="342.9" x2="1162.0" y2="361.2"/>
+<line x1="1162.0" y1="361.2" x2="1171.2" y2="361.2"/>
+<line x1="1171.2" y1="315.4" x2="1189.5" y2="315.4"/>
+<line x1="64.1" y1="699.7" x2="91.6" y2="699.7"/>
+<line x1="1299.3" y1="278.8" x2="1299.3" y2="361.2"/>
+<line x1="1299.3" y1="361.2" x2="1335.9" y2="361.2"/>
+<line x1="1299.3" y1="580.7" x2="1299.3" y2="745.4"/>
+<line x1="1299.3" y1="580.7" x2="1345.0" y2="580.7"/>
+<line x1="73.3" y1="663.1" x2="73.3" y2="745.4"/>
+<line x1="73.3" y1="663.1" x2="91.6" y2="663.1"/>
+<line x1="73.3" y1="745.4" x2="613.1" y2="745.4"/>
+<line x1="292.9" y1="663.1" x2="329.5" y2="663.1"/>
+<line x1="329.5" y1="663.1" x2="329.5" y2="672.2"/>
+<line x1="329.5" y1="663.1" x2="366.1" y2="663.1"/>
+<line x1="329.5" y1="672.2" x2="603.9" y2="672.2"/>
+<line x1="384.4" y1="653.9" x2="402.7" y2="653.9"/>
+<line x1="402.7" y1="626.5" x2="402.7" y2="653.9"/>
+<line x1="402.7" y1="626.5" x2="475.9" y2="626.5"/>
+<line x1="421.0" y1="306.3" x2="796.1" y2="306.3"/>
+<line x1="439.3" y1="123.3" x2="439.3" y2="150.7"/>
+<line x1="439.3" y1="150.7" x2="448.4" y2="150.7"/>
+<line x1="448.4" y1="361.2" x2="896.7" y2="361.2"/>
+<line x1="448.4" y1="361.2" x2="448.4" y2="544.1"/>
+<line x1="448.4" y1="544.1" x2="448.4" y2="681.4"/>
+<line x1="448.4" y1="544.1" x2="613.1" y2="544.1"/>
+<line x1="448.4" y1="681.4" x2="613.1" y2="681.4"/>
+<line x1="448.4" y1="150.7" x2="448.4" y2="361.2"/>
+<line x1="475.9" y1="397.8" x2="475.9" y2="626.5"/>
+<line x1="475.9" y1="397.8" x2="503.3" y2="397.8"/>
+<line x1="475.9" y1="626.5" x2="613.1" y2="626.5"/>
+<line x1="485.0" y1="141.6" x2="539.9" y2="141.6"/>
+<line x1="512.4" y1="105.0" x2="1024.8" y2="105.0"/>
+<line x1="530.7" y1="397.8" x2="786.9" y2="397.8"/>
+<line x1="539.9" y1="123.3" x2="539.9" y2="141.6"/>
+<line x1="539.9" y1="123.3" x2="558.2" y2="123.3"/>
+<line x1="576.5" y1="269.7" x2="613.1" y2="269.7"/>
+<line x1="585.6" y1="507.6" x2="613.1" y2="507.6"/>
+<line x1="603.9" y1="278.8" x2="1299.3" y2="278.8"/>
+<line x1="603.9" y1="278.8" x2="603.9" y2="525.9"/>
+<line x1="603.9" y1="525.9" x2="613.1" y2="525.9"/>
+<line x1="603.9" y1="644.8" x2="613.1" y2="644.8"/>
+<line x1="603.9" y1="663.1" x2="603.9" y2="672.2"/>
+<line x1="603.9" y1="663.1" x2="613.1" y2="663.1"/>
+<line x1="613.1" y1="223.9" x2="613.1" y2="269.7"/>
+<line x1="613.1" y1="223.9" x2="649.7" y2="223.9"/>
+<line x1="613.1" y1="699.7" x2="613.1" y2="745.4"/>
+<line x1="613.1" y1="745.4" x2="1299.3" y2="745.4"/>
+<line x1="649.7" y1="223.9" x2="649.7" y2="233.1"/>
+<line x1="649.7" y1="233.1" x2="1024.8" y2="233.1"/>
+<line x1="695.4" y1="123.3" x2="695.4" y2="141.6"/>
+<line x1="722.9" y1="187.3" x2="722.9" y2="196.5"/>
+<line x1="722.9" y1="196.5" x2="796.1" y2="196.5"/>
+<line x1="750.3" y1="178.2" x2="759.5" y2="178.2"/>
+<line x1="750.3" y1="141.6" x2="777.8" y2="141.6"/>
+<line x1="759.5" y1="178.2" x2="759.5" y2="315.4"/>
+<line x1="759.5" y1="315.4" x2="1171.2" y2="315.4"/>
+<line x1="777.8" y1="141.6" x2="777.8" y2="324.6"/>
+<line x1="777.8" y1="141.6" x2="805.2" y2="141.6"/>
+<line x1="786.9" y1="333.7" x2="887.6" y2="333.7"/>
+<line x1="786.9" y1="333.7" x2="786.9" y2="397.8"/>
+<line x1="796.1" y1="196.5" x2="796.1" y2="306.3"/>
+<line x1="796.1" y1="306.3" x2="1171.2" y2="306.3"/>
+<line x1="796.1" y1="159.9" x2="796.1" y2="196.5"/>
+<line x1="796.1" y1="159.9" x2="805.2" y2="159.9"/>
+<line x1="814.4" y1="626.5" x2="1152.9" y2="626.5"/>
+<line x1="832.7" y1="370.3" x2="860.1" y2="370.3"/>
+<line x1="832.7" y1="388.6" x2="1171.2" y2="388.6"/>
+<line x1="832.7" y1="406.9" x2="1171.2" y2="406.9"/>
+<line x1="832.7" y1="425.2" x2="1171.2" y2="425.2"/>
+<line x1="832.7" y1="443.5" x2="1171.2" y2="443.5"/>
+<line x1="832.7" y1="461.8" x2="1171.2" y2="461.8"/>
+<line x1="832.7" y1="480.1" x2="1171.2" y2="480.1"/>
+<line x1="832.7" y1="498.4" x2="1171.2" y2="498.4"/>
+</g>
+<rect x="999.9" y="125.6" width="68" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1033.9" y="145.6" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">Probe</text>
+<rect x="1009.1" y="143.9" width="68" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1043.1" y="163.9" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">Probe</text>
+<circle cx="55.0" cy="681.4" r="8" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="67.0" y="671.4" text-anchor="start" font-family="Arial" font-size="12" fill="#111">M [3]</text>
+<circle cx="1143.7" cy="242.2" r="11" fill="#fff" stroke="#111" stroke-width="2"/>
+<path d="M 1139.7 246.2 L 1143.7 238.2 L 1147.7 246.2" fill="none" stroke="#111" stroke-width="1.5"/>
+<rect x="1147.9" y="562.7" width="10" height="36" fill="#fafafa" stroke="#666" stroke-width="1.5"/>
+<rect x="1149.0" y="332.9" width="26" height="20" rx="3" fill="#fafafa" stroke="#666"/>
+<text x="1162.0" y="346.9" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">0x0</text>
+<rect x="51.1" y="689.7" width="26" height="20" rx="3" fill="#fafafa" stroke="#666"/>
+<text x="64.1" y="703.7" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">0</text>
+<rect x="1294.3" y="343.2" width="10" height="36" fill="#fafafa" stroke="#666" stroke-width="1.5"/>
+<rect x="1294.3" y="562.7" width="10" height="36" fill="#fafafa" stroke="#666" stroke-width="1.5"/>
+<circle cx="1335.9" cy="361.2" r="8" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="1323.9" y="351.2" text-anchor="end" font-family="Arial" font-size="12" fill="#111">OUT [8]</text>
+<circle cx="1345.0" cy="580.7" r="8" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="1333.0" y="570.7" text-anchor="end" font-family="Arial" font-size="12" fill="#111">OUT [4]</text>
+<rect x="361.1" y="645.1" width="10" height="36" fill="#fafafa" stroke="#666" stroke-width="1.5"/>
+<circle cx="421.0" cy="306.3" r="8" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="433.0" y="296.3" text-anchor="start" font-family="Arial" font-size="12" fill="#111">RESET</text>
+<circle cx="585.6" cy="507.6" r="8" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="597.6" y="497.6" text-anchor="start" font-family="Arial" font-size="12" fill="#111">IN [8]</text>
+<rect x="590.9" y="634.8" width="26" height="20" rx="3" fill="#fafafa" stroke="#666"/>
+<text x="603.9" y="648.8" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">0x0</text>
+<circle cx="695.4" cy="178.2" r="11" fill="#fff" stroke="#111" stroke-width="2"/>
+<path d="M 691.4 182.2 L 695.4 174.2 L 699.4 182.2" fill="none" stroke="#111" stroke-width="1.5"/>
+<rect x="682.4" y="113.3" width="26" height="20" rx="3" fill="#fafafa" stroke="#666"/>
+<text x="695.4" y="127.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">0</text>
+<rect x="809.4" y="489.6" width="10" height="36" fill="#fafafa" stroke="#666" stroke-width="1.5"/>
+<rect x="405.3" y="107.3" width="68" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="439.3" y="127.3" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">AND</text>
+<rect x="451.0" y="89.0" width="68" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="485.0" y="109.0" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">NOT</text>
+<rect x="496.7" y="381.8" width="68" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="530.7" y="401.8" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">NOT</text>
+<rect x="871.0" y="326.9" width="88" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="915.0" y="346.9" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">MUX</text>
+<rect x="532.5" y="253.7" width="88" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="576.5" y="273.7" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">Decoder</text>
+<rect x="1127.2" y="272.0" width="88" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1171.2" y="292.0" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">SHIFT REG</text>
+<rect x="660.6" y="116.4" width="88" height="32" rx="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="704.6" y="136.4" text-anchor="middle" font-family="Arial" font-size="11" fill="#111">T FF</text>
+<rect x="956.5" y="120.6" width="100" height="42" rx="8" fill="#eef2f7" stroke="#222" stroke-width="2"/>
+<text x="1006.5" y="146.6" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#111">CNT</text>
+<rect x="242.9" y="642.1" width="100" height="42" rx="8" fill="#eef2f7" stroke="#222" stroke-width="2"/>
+<text x="292.9" y="668.1" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#111">AD_4BIT</text>
+<rect x="764.4" y="486.6" width="100" height="42" rx="8" fill="#eef2f7" stroke="#222" stroke-width="2"/>
+<text x="814.4" y="512.6" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#111">FIND_Q</text>
+<rect x="764.4" y="605.5" width="100" height="42" rx="8" fill="#eef2f7" stroke="#222" stroke-width="2"/>
+<text x="814.4" y="631.5" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#111">FIND_A</text>
+<text x="1345" y="809" text-anchor="end" font-family="Arial" font-size="11" fill="#666">Schematic preview generated from assignment.circ coordinates</text>
+</svg>
